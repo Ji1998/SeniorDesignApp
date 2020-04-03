@@ -13,4 +13,5 @@ The funtionalities of this App include:
 
 ## Sample screen of the App
 ![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.43.56.png)
+![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.45.43.png)
 
