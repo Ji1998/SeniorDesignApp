@@ -11,5 +11,6 @@ The funtionalities of this App include:
 5. Parents can navigate through the App from their location to the location of the children
 6. The App is able to send and receive data from the Cloud Server, here I use Firebase
 
-
+## Sample screen of the App
+! [alt text] (https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.43.56.png)
 
