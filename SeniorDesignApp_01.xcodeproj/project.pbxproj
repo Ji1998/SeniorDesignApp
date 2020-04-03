@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C78754FA22DC9584CB42D3F /* Pods_SeniorDesignApp_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D0A2BAAF11A8931574E485 /* Pods_SeniorDesignApp_01.framework */; };
+		B06A855823FA003E0053B30B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A855723FA003E0053B30B /* TabBarViewController.swift */; };
 		B0CAD1A72388D23200CD57E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAD1A62388D23200CD57E4 /* AppDelegate.swift */; };
 		B0CAD1A92388D23200CD57E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAD1A82388D23200CD57E4 /* SceneDelegate.swift */; };
 		B0CAD1AB2388D23200CD57E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAD1AA2388D23200CD57E4 /* FirstViewController.swift */; };
@@ -15,9 +17,16 @@
 		B0CAD1B32388D23200CD57E4 /* SeniorDesignApp_01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0CAD1B12388D23200CD57E4 /* SeniorDesignApp_01.xcdatamodeld */; };
 		B0CAD1B52388D23500CD57E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CAD1B42388D23500CD57E4 /* Assets.xcassets */; };
 		B0CAD1B82388D23500CD57E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAD1B62388D23500CD57E4 /* LaunchScreen.storyboard */; };
+		B0CAD1C12388D29700CD57E4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CAD1C02388D29700CD57E4 /* MapKit.framework */; };
+		B0E34C21239364A300336C07 /* locationPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E34C20239364A300336C07 /* locationPool.swift */; };
+		B0F0DCF523D8D75A002928F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F0DCF423D8D75A002928F8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139E46BE8074764DE7C7A43F /* Pods-SeniorDesignApp_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorDesignApp_01.debug.xcconfig"; path = "Target Support Files/Pods-SeniorDesignApp_01/Pods-SeniorDesignApp_01.debug.xcconfig"; sourceTree = "<group>"; };
+		50EB7502FFE786C0E4E0E466 /* Pods-SeniorDesignApp_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorDesignApp_01.release.xcconfig"; path = "Target Support Files/Pods-SeniorDesignApp_01/Pods-SeniorDesignApp_01.release.xcconfig"; sourceTree = "<group>"; };
+		61D0A2BAAF11A8931574E485 /* Pods_SeniorDesignApp_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeniorDesignApp_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A855723FA003E0053B30B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = /Users/Steven/Documents/xcode/SeniorDesignApp_01/SeniorDesignApp_01/TabBarViewController.swift; sourceTree = "<absolute>"; };
 		B0CAD1A32388D23200CD57E4 /* SeniorDesignApp_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorDesignApp_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CAD1A62388D23200CD57E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0CAD1A82388D23200CD57E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +37,9 @@
 		B0CAD1B42388D23500CD57E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0CAD1B72388D23500CD57E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0CAD1B92388D23500CD57E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CAD1C02388D29700CD57E4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B0E34C20239364A300336C07 /* locationPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationPool.swift; sourceTree = "<group>"; };
+		B0F0DCF423D8D75A002928F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +47,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CAD1C12388D29700CD57E4 /* MapKit.framework in Frameworks */,
+				0C78754FA22DC9584CB42D3F /* Pods_SeniorDesignApp_01.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75143DDD67E492D411AD27C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				139E46BE8074764DE7C7A43F /* Pods-SeniorDesignApp_01.debug.xcconfig */,
+				50EB7502FFE786C0E4E0E466 /* Pods-SeniorDesignApp_01.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B0CAD19A2388D23200CD57E4 = {
 			isa = PBXGroup;
 			children = (
 				B0CAD1A52388D23200CD57E4 /* SeniorDesignApp_01 */,
 				B0CAD1A42388D23200CD57E4 /* Products */,
+				B0CAD1BF2388D29700CD57E4 /* Frameworks */,
+				75143DDD67E492D411AD27C5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +85,29 @@
 		B0CAD1A52388D23200CD57E4 /* SeniorDesignApp_01 */ = {
 			isa = PBXGroup;
 			children = (
-				B0CAD1A62388D23200CD57E4 /* AppDelegate.swift */,
-				B0CAD1A82388D23200CD57E4 /* SceneDelegate.swift */,
 				B0CAD1AA2388D23200CD57E4 /* FirstViewController.swift */,
 				B0CAD1AC2388D23200CD57E4 /* SecondViewController.swift */,
+				B0CAD1A62388D23200CD57E4 /* AppDelegate.swift */,
+				B0CAD1A82388D23200CD57E4 /* SceneDelegate.swift */,
+				B0E34C20239364A300336C07 /* locationPool.swift */,
+				B06A855723FA003E0053B30B /* TabBarViewController.swift */,
 				B0CAD1AE2388D23200CD57E4 /* Main.storyboard */,
 				B0CAD1B42388D23500CD57E4 /* Assets.xcassets */,
 				B0CAD1B62388D23500CD57E4 /* LaunchScreen.storyboard */,
 				B0CAD1B92388D23500CD57E4 /* Info.plist */,
 				B0CAD1B12388D23200CD57E4 /* SeniorDesignApp_01.xcdatamodeld */,
+				B0F0DCF423D8D75A002928F8 /* GoogleService-Info.plist */,
 			);
 			path = SeniorDesignApp_01;
+			sourceTree = "<group>";
+		};
+		B0CAD1BF2388D29700CD57E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAD1C02388D29700CD57E4 /* MapKit.framework */,
+				61D0A2BAAF11A8931574E485 /* Pods_SeniorDesignApp_01.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0CAD1BC2388D23500CD57E4 /* Build configuration list for PBXNativeTarget "SeniorDesignApp_01" */;
 			buildPhases = (
+				303A8ACB32D292A686594954 /* [CP] Check Pods Manifest.lock */,
 				B0CAD19F2388D23200CD57E4 /* Sources */,
 				B0CAD1A02388D23200CD57E4 /* Frameworks */,
 				B0CAD1A12388D23200CD57E4 /* Resources */,
+				FE2A73E37D02BD521CCF53CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +171,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CAD1B82388D23500CD57E4 /* LaunchScreen.storyboard in Resources */,
+				B0F0DCF523D8D75A002928F8 /* GoogleService-Info.plist in Resources */,
 				B0CAD1B52388D23500CD57E4 /* Assets.xcassets in Resources */,
 				B0CAD1B02388D23200CD57E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303A8ACB32D292A686594954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeniorDesignApp_01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2A73E37D02BD521CCF53CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorDesignApp_01/Pods-SeniorDesignApp_01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorDesignApp_01/Pods-SeniorDesignApp_01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeniorDesignApp_01/Pods-SeniorDesignApp_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0CAD19F2388D23200CD57E4 /* Sources */ = {
@@ -146,7 +228,9 @@
 			files = (
 				B0CAD1AD2388D23200CD57E4 /* SecondViewController.swift in Sources */,
 				B0CAD1AB2388D23200CD57E4 /* FirstViewController.swift in Sources */,
+				B0E34C21239364A300336C07 /* locationPool.swift in Sources */,
 				B0CAD1B32388D23200CD57E4 /* SeniorDesignApp_01.xcdatamodeld in Sources */,
+				B06A855823FA003E0053B30B /* TabBarViewController.swift in Sources */,
 				B0CAD1A72388D23200CD57E4 /* AppDelegate.swift in Sources */,
 				B0CAD1A92388D23200CD57E4 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,9 +374,12 @@
 		};
 		B0CAD1BD2388D23500CD57E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139E46BE8074764DE7C7A43F /* Pods-SeniorDesignApp_01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RV97R75786;
 				INFOPLIST_FILE = SeniorDesignApp_01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +387,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "GuansgenJiSeniorDesignApp.SeniorDesignApp-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,9 +395,12 @@
 		};
 		B0CAD1BE2388D23500CD57E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50EB7502FFE786C0E4E0E466 /* Pods-SeniorDesignApp_01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RV97R75786;
 				INFOPLIST_FILE = SeniorDesignApp_01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,6 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "GuansgenJiSeniorDesignApp.SeniorDesignApp-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
