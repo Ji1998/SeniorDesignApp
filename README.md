@@ -9,8 +9,10 @@ This App is built for My Senior Design Project. This project is supported Hanes 
 3. show the GPS location of Child and Parents simutaneously on the App
 4. Parents can set Geofencing distance through the App. Once the child exceed the geofencing distance, the App will alert
 5. Parents can navigate through the App from their location to the location of the children
-6. The App is able to send and receive data from the Cloud Server, here I use Firebase
+6. The App is able to send and receive data from the Cloud Server, here I use Firebase <br />
 (note:in order to run this App, you have to download all files(indluding the pod file) and run it with Xcode)
+
+## 
 
 ## Sample screen of the App
 ![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.43.56.png)
