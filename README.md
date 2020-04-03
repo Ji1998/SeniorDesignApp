@@ -20,7 +20,7 @@ This App is built for My Senior Design Project. This project is supported Hanes 
 5. The "Me" button will show the location of the App itself, which is the parents location.
 
 ## Sample screenshot of the App
-![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.43.56.png =100x100)
+![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.43.56.png)
 ![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.49.51.png)
 ![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-03%20at%2009.58.43.png)
 
