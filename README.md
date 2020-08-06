@@ -41,13 +41,16 @@ Following Instructions will get you a copy of this App and run on your local mac
 * [Firebase](https://firebase.google.com/docs/ios/setup): The App will send data to the Firebase and grab data from the Firebase
 * [UIKit](https://developer.apple.com/documentation/uikit): The UIKit draw the UI and as a layer between user and system which handling every operation made by user
 * [MapKit](https://developer.apple.com/documentation/mapkit): The MapKit draw the map on the App and gain GPS permission from system. 
-* [Xcode] (https://developer.apple.com/xcode/): The Xcode compile all files together including the POD file, and build connection with Firebase
+* [Xcode](https://developer.apple.com/xcode/): The Xcode compile all files together including the POD file, and build connection with Firebase
 
 ### Functions of major files
 * "FirstViewController.swift" : Build the UI of first view, map and connection with Firebase. Assign the functions of each button, including implement functions of each button
 * "SecondViewController.swift" : Build the UI of second view and connection with Firebase.  Assign the functions of each button, including implement functions of each button
 * "AppDelegate.swift" : Work in conjuction with UIApplication and Firebase to manage some interactions with system
 * "SceneDelegate.swift" : Responsible for showing what is on the screen or the windows. 
+
+## Author:
+* Any Questions? Get in connection with guangsen@usc.edu
 
 
 
