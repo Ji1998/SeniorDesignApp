@@ -1,6 +1,6 @@
 
-# Senior Design App
-This App is built for My Senior Design Project. This project is supported Hanes brand. The pupose of this project is to develop a demountable module with GPS onto a auto-cinching hoodie for children, along with companion app for parents to monitor their child’s activity. The basic logic behind this project is that there is a demountable module based on Particle board. The Particle board will connect with the Motor for auto-cinching and the board has GPS sensor. My App will communicate with the board through Firebase Cloud service provided by Google. 
+# Never Lost Hoodie--App
+This App is built for My Senior Design Project. This project is supported Hanes brand. The pupose of this project is to develop a demountable module with GPS onto a auto-cinching hoodie for children, along with companion app for parents to monitor their child’s activity. For a full version of documentation, click [here](https://docs.google.com/document/d/1JR1hO1vg48MkxcifPFJS8aZZV-iJQGwwwRiTRAQhHGM/edit?usp=sharing)
 
 
 ## The funtionalities of this App include:
