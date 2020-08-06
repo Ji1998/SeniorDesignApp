@@ -1,6 +1,6 @@
 
 # Never Lost Hoodie--App
-This App is built for My Senior Design Project -- Never Lost Hoodie.  This project is supported Hanes brand. The pupose of this project is to develop a demountable module with GPS onto a auto-cinching hoodie for children, along with companion app for parents to monitor their child’s activity. For a full version of documentation, click [here](https://docs.google.com/document/d/1JR1hO1vg48MkxcifPFJS8aZZV-iJQGwwwRiTRAQhHGM/edit?usp=sharing)
+This App is built for My Senior Design Project -- Never Lost Hoodie.  This project is supported Hanes brand. The pupose of this project is to develop a demountable module with GPS onto a auto-cinching hoodie for children, along with companion app for parents to monitor their child’s activity. For a full version of how out this project work, click [here](https://docs.google.com/document/d/1JR1hO1vg48MkxcifPFJS8aZZV-iJQGwwwRiTRAQhHGM/edit?usp=sharing)
 
 ## Getting Started
 Following Instructions will get you a copy of this App and run on your local machine for testing and development purpose. 
