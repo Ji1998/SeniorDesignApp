@@ -6,7 +6,7 @@ This App is built for My Senior Design Project -- Never Lost Hoodie.  This proje
 Following Instructions will get you a copy of this App and run on your local machine for testing and development purpose. 
 
 ### Prerequisites
-1. Download Xcode(https://developer.apple.com/xcode/)
+1. Download [Xcode] (https://developer.apple.com/xcode/)
 2. Download all the files
 
 ### Installing
@@ -26,14 +26,16 @@ Following Instructions will get you a copy of this App and run on your local mac
 ![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-03%20at%2009.58.43.png)
 
 ## For Developers
-This App has the following functions:
+### This App has the following functions:
 (parents = who is using the app), (child = server)
 1. Build Connection with Firebase through POD file and GCP instructions, which bulild the brige for data exchange between server and local. 
-1. Obtain the GPS information from Firebase(Child Location), and show this GPS information on the App.This will update automatically as long as the GPS information changes in the server. 
-2. Obtain the GPS information for the person who is using it, and show this GPS information on the App. This will update automatically as long as the GPS information changes in the server. 
-3. show the GPS location of Child and Parents simutaneously on the App
-4. Parents can set Geofencing distance through the App. Once the child exceed the geofencing distance, the App will alert
-5. Parents can navigate through the App from their location to the location of the children
+2. Obtain the GPS information from Firebase(Child Location), and show this GPS information on the App.This will update automatically as long as the GPS information changes in the server. 
+3. Obtain the GPS information for the person who is using it, and show this GPS information on the App. This will update automatically as long as the GPS information changes in the server. 
+4. show the GPS location of Child and Parents simutaneously on the App
+5. show Battery information of the module on the hoodie
+6. Parents can set Geofencing distance through the App. Once the child exceed the geofencing distance, the App will alert
+7. Parents can navigate through the App from their location to the location of the children
+8. Parents can control the motor on the hoodie
 
 ### Build with
 * [Firebase](https://firebase.google.com/docs/ios/setup): The App will send data to the Firebase and grab data from the Firebase
@@ -41,5 +43,7 @@ This App has the following functions:
 * [MapKit](https://developer.apple.com/documentation/mapkit): The MapKit draw the map on the App and gain GPS permission from system. 
 * [Xcode] (https://developer.apple.com/xcode/): The Xcode compile all files together including the POD file, and build connection with Firebase
 
+### Functions of each file
+* "FirstViewController.swift" : 
 
 
