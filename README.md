@@ -43,7 +43,11 @@ Following Instructions will get you a copy of this App and run on your local mac
 * [MapKit](https://developer.apple.com/documentation/mapkit): The MapKit draw the map on the App and gain GPS permission from system. 
 * [Xcode] (https://developer.apple.com/xcode/): The Xcode compile all files together including the POD file, and build connection with Firebase
 
-### Functions of each file
-* "FirstViewController.swift" : 
+### Functions of major files
+* "FirstViewController.swift" : Build the UI of first view, map and connection with Firebase. Assign the functions of each button, including implement functions of each button
+* "SecondViewController.swift" : Build the UI of second view and connection with Firebase.  Assign the functions of each button, including implement functions of each button
+* "AppDelegate.swift" : Work in conjuction with UIApplication and Firebase to manage some interactions with system
+* "SceneDelegate.swift" : Responsible for showing what is on the screen or the windows. 
+
 
 
