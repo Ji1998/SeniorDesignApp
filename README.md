@@ -21,9 +21,9 @@ Following Instructions will get you a copy of this App and run on your local mac
 5. The "Me" button will show the location of the App itself, which is the parents location.
 
 ### Sample screenshot of the App
-![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.43.56.png)
-![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.49.51.png)
-![alt text](https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-03%20at%2009.58.43.png)
+<img src = "https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.43.56.png" width = "600"/>
+<img src = "https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-02%20at%2021.49.51.png" width = "600"/>
+<img src = "https://github.com/Ji1998/SeniorDesignApp/blob/master/Screen%20Shot%202020-04-03%20at%2009.58.43.png" width = "600"/>
 
 ## For Developers
 ### This App has the following functions:
