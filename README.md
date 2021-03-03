@@ -52,6 +52,5 @@ Following Instructions will get you a copy of this App and run on your local mac
 ## Author:
 * Any Questions? Get in connection with guangsen@usc.edu
 
-### 
-*Special thanks to [Jiale](https://www.linkedin.com/in/jiale-hu) who helps me a lot on this project
+
 
